@@ -5,7 +5,6 @@ from aiogram import Bot, Dispatcher, types, executor
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 setting = get_settings()
-
 API_TOKEN = setting.telegram_token
 
 DESCRIPTION = (
